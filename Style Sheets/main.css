@@ -1,4 +1,65 @@
-body {
-background-color: aqua;
+/*BODY*/
+*{
+    box-sizing: border-box;
+  }
 
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #00454e;
+    margin: 0;
+  }
+
+/*TYPOGRAFI*/
+@font-face{
+    font-family: ProximaNovaA-Bold;
+    src: url(../Fonts/ProximaNovaA-Bold.woff2);
 }
+
+@font-face {
+    font-family: ProximaNovaA-Regular;
+    src: url(../Fonts/ProximaNovaA-Regular.woff2);
+}
+
+h1 {
+    font-family: ProximaNovaA-Bold;
+    font-style: italic;
+    font-size: 70px;
+    color: #e4f1f0;
+    margin: 0; /*Hvis ikke den er 0, er der sygt meget plads af en eller anden grund*/
+}
+
+/*Kan H2 være overskrift for en sektion måske?*/
+
+h3 {
+    font-family: ProximaNovaA-Bold;
+    color: #FFFFFF;
+}
+
+/*Dette skal nok lige justeres*/
+p, ul, li, a, button {
+    font-family: ProximaNovaA-Regular;
+    color: #FFFFFF;
+}
+
+/*ELEMENTER*/
+button {
+    background: #00454e;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+/*Header*/
+
+  header {
+    height: 50px;
+  }
+
+  #intro {
+    height: 300px;
+    background: #FFFFFF;
+  }
