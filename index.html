@@ -15,18 +15,35 @@
 
     <header>
         <img src="Images/Header/logo-hvid.png" id="logo" alt="UCL Events logo">
-    
+
         <nav>
-            <ul>
+            <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar-->
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+            </script>
+
+            <ul id="myLinks">
                 <li><a>Forside</a></li>
                 <li><a>Arrangementer</a></li>
                 <li><a>Samarbejde</a></li>
                 <li><a>Studieliv</a></li>
                 <li><a>Kontakt</a></li>
             </ul>
+            
             <img src="Images/Header/mag-glass-hvid.png" class="ikon" alt="Søgefelt">
             <img src="Images/Header/profil-hvid.png" class="ikon" alt="Profil">
-            <img src="Images/Header/burger-hvid.png" class="ikon" alt="Burger-menu">
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Images/Header/burger-hvid.png" class="ikon" alt="Burger-menu">
+            </a>
+            
         </nav>
     </header>
       

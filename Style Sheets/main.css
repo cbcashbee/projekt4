@@ -84,6 +84,7 @@ header {
 
 nav ul {
     display: none;
+    position: inherit;
   }
 
 .ikon {
