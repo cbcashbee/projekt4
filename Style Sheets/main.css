@@ -3,14 +3,18 @@
     box-sizing: border-box;
   }
 
-  html {
+html {
     scroll-behavior: smooth;
   }
   
-  body {
+body {
     background: #00454e;
-    margin: 0;
+    margin: 0px;
   }
+
+
+
+  
 
 /*TYPOGRAFI*/
 @font-face{
@@ -27,8 +31,9 @@ h1 {
     font-family: ProximaNovaA-Bold;
     font-style: italic;
     font-size: 70px;
+    text-align: center;
     color: #e4f1f0;
-    margin: 0; /*Hvis ikke den er 0, er der sygt meget plads af en eller anden grund*/
+    margin: 0;
 }
 
 /*Kan H2 være overskrift for en sektion måske?*/
@@ -44,6 +49,15 @@ p, ul, li, a, button {
     color: #FFFFFF;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 /*ELEMENTER*/
 button {
     background: #00454e;
@@ -53,13 +67,68 @@ button {
     font-size: 20px;
 }
 
-/*Header*/
 
-  header {
+/*FAST INDHOLD*/
+/*Header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 70px;
+    margin: 0px 30px;
+  }
+
+#logo {
     height: 50px;
   }
 
-  #intro {
-    height: 300px;
-    background: #FFFFFF;
+nav ul {
+    display: none;
   }
+
+.ikon {
+    height: 30px;
+    margin: 10px;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px 40px 10px;
+}
+footer div {
+    width: 250px;
+}
+
+
+/*SECTION*/
+section {
+    background-color: #FFFFFF;
+}
+
+/*Intro*/
+#intro {
+    background: rgb(168, 117, 86) url(../Images/godmaargen.jpg) no-repeat center;
+    background-size: 500px;
+    height: 300px;
+}
+
+
+.sec-a, .sec-b {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.sec-a img, .sec-b img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.sec-a p, .sec-b p {
+    width: 66%;
+    color: #00454e;
+}
