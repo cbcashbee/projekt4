@@ -38,8 +38,9 @@ h1 {
 
 /*Kan H2 være overskrift for en sektion måske?*/
 
-h3 {
+h3, nav li a {
     font-family: ProximaNovaA-Bold;
+    font-size: 25px;
     color: #FFFFFF;
 }
 
@@ -82,14 +83,19 @@ header {
     height: 50px;
   }
 
-nav ul {
-    display: none;
-    position: inherit;
-  }
-
 .ikon {
     height: 30px;
     margin: 10px;
+}
+
+nav ul {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+nav li {
+  margin: 30px 0px;
 }
 
 /*Footer*/
@@ -131,8 +137,7 @@ position: absolute;
 top: 80px;
 left: 135px;
 font-size: 50px;
-
-
+z-index: 0; /*Gør at JS-teksten er under burger-menuen*/
 }
 
 
@@ -207,12 +212,13 @@ padding-top: 100px;
 
 
 
-<style>
+/* Har lige gemt denne, fordi det lignede det ikke skulle være der ift. at skriften blev blå og meget mindre – men hvis jeg tager fejl, så bare slet :)
 .introparagraf {
     font-size: 20px;
     font-weight: bold;
     color: #336699;
   }
+  */
   
   .introparagraf span {
     animation-name: change-text;
@@ -226,3 +232,5 @@ padding-top: 100px;
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }
+  }
+  /*Og så lukkede jeg lige den her nede, fordi min editor sagde der var en fejl, håber det er ok

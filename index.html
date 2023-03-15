@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UCL Events</title>
     <link rel="stylesheet" href="Style Sheets/main.css">
-    <link src="Scripts/script.js" defer>
+    <script src="Scripts/script.js" defer></script>
 </head>
 
 
@@ -16,39 +16,25 @@
     <header>
         <img src="Images/Header/logo-hvid.png" id="logo" alt="UCL Events logo">
 
-        <nav>
-            <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar-->
-            <script>
-                function myFunction() {
-                  var x = document.getElementById("myLinks");
-                  if (x.style.display === "block") {
-                    x.style.display = "none";
-                  } else {
-                    x.style.display = "block";
-                  }
-                }
-            </script>
-
-            <ul id="myLinks">
+        <nav>            
+            <img src="Images/Header/mag-glass-hvid.png" class="ikon" alt="Søgefelt">
+            <img src="Images/Header/profil-hvid.png" class="ikon" alt="Profil">
+            
+            <ul id="navLinks">
                 <li><a>Forside</a></li>
                 <li><a>Arrangementer</a></li>
                 <li><a>Samarbejde</a></li>
                 <li><a>Studieliv</a></li>
                 <li><a>Kontakt</a></li>
             </ul>
-            
-            <img src="Images/Header/mag-glass-hvid.png" class="ikon" alt="Søgefelt">
-            <img src="Images/Header/profil-hvid.png" class="ikon" alt="Profil">
-            
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+            <a href="javascript:void(0);" onclick="burgerMenu()">
                 <img src="Images/Header/burger-hvid.png" class="ikon" alt="Burger-menu">
             </a>
-            
-        </nav>
+        </nav>        
     </header>
-      
-    
-    
+
+
     <section class="section-1">
         <div class="sec-a">
             <img class="introbillede-1" src="Images/UCLfælleskab.png" alt="">
