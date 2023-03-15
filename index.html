@@ -48,18 +48,55 @@
     </header>
       
     
-    <section>
-        <div id="intro">
+    
+    <section class="section-1">
+        <div class="sec-a">
+            <img class="introbillede-1" src="Images/UCLfælleskab.png" alt="">
+        <div>
+            <p class="introparagraf">Det sociale liv på UCL: <span>Kom og mød nye venner!</span></p>
+        </div>
+        <script>
+      // Array of text to rotate through for each paragraph
+  const texts = [
+    ['Kom og mød nye venner!', 'Bliv en del af fællesskabet', 'Tilmeld dig en klub eller forening', 'Find din passion'],
+    ['Tilmeld dig en klub eller forening', 'Find din passion'],
+    ['Deltag i sociale arrangementer', 'Sæt dit præg på UCL']
+  ];
+
+  let index = 4;
+  const socialLifes = document.querySelectorAll('.introparagraf');
+
+  setInterval(() => {
+    // Loop through all the paragraphs and update their text content
+    socialLifes.forEach((socialLife, i) => {
+      const span = socialLife.querySelector('span');
+      span.textContent = texts[i][index % texts[i].length];
+    });
+    // Increment the index
+    index++;
+  }, 3000);
+          </script>
+
+        </div>
         </div>
 
-        <div class="sec-a">
-            <p>Dette er en tekst</p>
-            <img src="Images/steneren.jpg">
-        </div>
 
         <div class="sec-b">
-            <img src="Images/bliver-roert.jpg">
-            <p>Dette er en tekst</p>
+        <div class="tekst-1">
+         <p class="paragraf-1">« Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. »</p>
+        </div>
+         <div>
+           <img class="billede-1" src="Images/steneren.jpg">
+        </div>
+        </div>
+    
+
+        <div class="sec-c">
+        <div class="">  
+        <img class="billede-2" src="Images/bliver-roert.jpg"></div>
+        <div class="tekst-2">
+            <p class="paragraf-2">«Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.»</p>
+        </div>
         </div>
         
     </section>
