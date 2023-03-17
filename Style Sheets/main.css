@@ -110,9 +110,6 @@ footer div {
 
 
 /*SECTION*/
-section {
-background-color: #FFFFFF;
-}
 
 /*Intro*/
 
@@ -142,9 +139,16 @@ z-index: 0; /*Gør at JS-teksten er under burger-menuen*/
 
 
 
-.section-1{
-padding-bottom: 200px;
-background-color: #f1c9c0;
+.section-2{
+  background: url(../images/univers3.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: brightness(85%);
+  padding-bottom: 200px;
+
+
 }
 
 
@@ -158,28 +162,34 @@ padding-top: 50px;
 gap: 100px;
 padding-left: 50px;
 padding-right: 50px;
-
-
-
-
 }
+
+.section-2 h1{
+  font-size: 70px;
+  padding-top: 25px;
+}
+
 .billede-1{
 width: 400px;
 height: 400px;
 margin-right: 50px;
+-webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.99);
+-moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.99);
+box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.99);
+
+
 
 
 }
+
 .paragraf-1{
-color: black;
+color: white;
+font-weight: bold;
 width: 100%;
 margin-left: 50px;
 padding-top: 100px;
-
-
-
-
 }
+
 
 
 .sec-c{
@@ -199,12 +209,15 @@ padding-right: 50px;
 width: 400px;
 height: 400px;
 margin-left: 50px;
+-webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.99);
+-moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.99);
+box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.99);
 
 
 }
 
 .paragraf-2{
-color: black;
+color: white;
 width: 100%;
 margin-right: 50px;
 padding-top: 100px;
