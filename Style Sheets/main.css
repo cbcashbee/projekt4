@@ -577,3 +577,39 @@ width: 20px;
 
 
 }
+
+
+
+
+
+
+.section1-campuskort{
+height: 1000px;
+background: url(../images/baggrunducl.png) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+filter: brightness(100%);
+}
+
+
+.campuskort-titel{
+  font-size: 90px;
+  color: black;
+  padding-top: 70px;
+}
+
+.campuskort-billede{
+height: 650px;
+width: 900px;
+padding-top: 50px;
+margin: auto;
+display: grid;
+place-items: center;
+
+}
+
+
+
+
