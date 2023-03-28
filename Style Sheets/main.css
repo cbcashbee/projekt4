@@ -90,6 +90,7 @@ button {
     font-family: ProximaNovaA-Bold;
     font-size: 20px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .cta button {
@@ -158,9 +159,10 @@ nav {
     .sec-a{
         position: relative;
         text-align: center;
+        /*
         color: white;
         background-color: white;
-        /*height: 650px;*/
+        height: 650px;*/
     }
 
     .introbillede-1{
@@ -176,8 +178,9 @@ nav {
         padding-bottom: 100px;
         position: absolute;
         top: 250px;
-        left: 130px;
+        left: 100px;
         font-size: 45px;
+        width: fit-content;
     }
 
     .introparagraf span {
@@ -204,9 +207,15 @@ nav {
       }
 
       #velkomst div {
+        position: relative;
         width: 350px;
+        text-align: center;
       }
 
+      #velkomst p {
+        width: 100%;
+        margin: 0;
+      }
 
 
 
@@ -216,7 +225,7 @@ nav {
 
       
 /* Arrangementer *//* Arrangementer *//* Arrangementer *//* Arrangementer *//* Arrangementer *//* Arrangementer */
-
+/*
 .section1-arrangementer{
     height: 500px;
     background-color: white;
@@ -228,9 +237,8 @@ nav {
       filter: brightness(100%);
       padding-bottom: 200px;
     
-    
-    
       }
+*/
 
       /*
       .section1-arrangementer h1{
@@ -345,9 +353,7 @@ nav {
     
     .section2-arrangementer{
     height: 650px;
-    
-    
-    
+    background-color:#00454e;
     
     }
     
@@ -361,10 +367,9 @@ nav {
       margin-top: 20px;
     }
     
-    .arrangementer-billedecontainer img{
+    .arrangementer-billedecontainer img {
     height: 500px;
-    width: 700px;
-    
+    width: 700px;    
     }
     
     .arrow {
@@ -374,23 +379,25 @@ nav {
     }
     
     .left::before {
-      content: "\2190";
+      /*content: "\2190";*/
+      content: url(../Images/Arrangementer/arrow-l.svg);
     }
     
     .right::before {
-      content: "\2192";
+      /*content: "\2192";*/
+      content: url(../Images/Arrangementer/arrow-r.svg);
     }
     
+    /*
     img {
       max-width: 100%;
       height: auto;
       margin: 0 20px;
     }
-    
-    
+    */
     
     .section3-arrangementer{
-    height: 1300px;
+    height: 1550px;
     background-color: white;
     
     
@@ -440,7 +447,7 @@ nav {
     
     }
     .content p{
-    color: black;
+    /*color: black;*/
     width: 80%;
     
     
@@ -495,7 +502,9 @@ nav {
     
     .section1-campuskort{
     height: 1000px;
+    /*
     background: url(../images/baggrunducl.png) no-repeat center center fixed; 
+    */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -503,13 +512,14 @@ nav {
     filter: brightness(100%);
     }
     
-    
+    /*
     .campuskort-titel{
       font-size: 90px;
       color: black;
       padding-top: 70px;
     }
-    
+    */
+
     .campuskort-billede{
     height: 650px;
     width: 900px;
@@ -523,7 +533,7 @@ nav {
     /* Campuskort *//* Campuskort *//* Campuskort *//* Campuskort *//* Campuskort *//* Campuskort *//* Campuskort */
     /* Ølstafet*//* Ølstafet*//* Ølstafet*//* Ølstafet*//* Ølstafet*//* Ølstafet*//* Ølstafet*//* Ølstafet*//* Ølstafet*/
     
-    
+    /*
     .section1-olstafet{
     height: 1000px;
     background: url(../images/baggrunducl.png) no-repeat center center fixed; 
@@ -534,17 +544,17 @@ nav {
     filter: brightness(100%);
     
     }
+    */
     
-    
+    /*
     .section1-olstafet h1{
       font-size: 90px;
       color: black;
       padding-top: 40px;
       padding-bottom: 40px;
     
-    
-    
     }
+    */
     
     .olstafet-billede{
     height: 500px;
@@ -576,9 +586,11 @@ nav {
     
     
     .olstafet-information p{
-    color: #000000;
-    
-    
+    /*color: #000000;*/
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     }
     
     
@@ -588,8 +600,12 @@ nav {
     }
     
     .olstafet-information2 p{
-    color: #000000;
+    /*color: #000000;*/
     text-align: center;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
     
     }
     
@@ -608,7 +624,7 @@ nav {
     }
     
     .section2-olstafet{
-    height: 800px;
+    /*height: 800px;*/
     background-color: #ffffff;
     
     
@@ -616,10 +632,10 @@ nav {
     }
     
     .titel-omarrangementet{
-      font-size: 40px;
+     /*font-size: 40px;*/
       padding-top: 50px;
       padding-left: 255px;
-      font-weight: 500; 
+      /*font-weight: 500; */
     
     }
     
@@ -630,7 +646,7 @@ nav {
     
     
     }
-    
+    /*
     
     .omarrangengementet-information{
       margin-left: 200px;
@@ -646,19 +662,11 @@ nav {
       background-size: cover;
       filter: brightness(100%);
     
-    
-    
-    
-    
-    
     }
-    
+    */
     .omarrangengementet-information p{
-    color: #000000;
-    
-    
-    
-    
+    /*color: #000000;*/
+    margin-top: 0;
     }
     
     .omarrangengementet-information h3{
@@ -671,8 +679,8 @@ nav {
     
     .section3-olstafet{
     height: 500px;
-    
-    
+    background-color: #00454e;
+    margin-top: 100px; /*Space mellem tekst og deltagerliste*/
     
     }
     
@@ -699,7 +707,6 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
     }
     
     .deltagerliste-billede{
@@ -707,18 +714,19 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     }
     
     .deltagerliste-billede img{
     height: 200px;
     width: 200px;
+    padding: 30px;
     border-radius: 100px;
     
     
     
     }
     
+    /*
     .section4-olstafet{
     background: url(../images/baggrunducl.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -728,7 +736,7 @@ nav {
         filter: brightness(100%);
         height: 200px;
       }
-    
+    */
     .plusknap2{
         height: 30px;
         width: 30px;
