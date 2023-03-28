@@ -219,11 +219,51 @@ nav {
 
 
 
+/*DIN VÆG*/
 
+#vaeg div {
+  background-color: #FFFFFF;
+  margin: 10px 200px;
+  padding: 10px 30px;
+}
 
+#vaeg div div {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
+.afsender {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  background-color: aqua;
+}
 
-      
+.vaeg-pb {
+  width: 50px;
+  height: 50px;
+}
+
+.indhold {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 300px;
+  overflow: hidden;
+}
+
+.indhold p {
+  margin: 0;
+  flex-basis: 60%;
+}
+
+.indhold img {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
 /* Arrangementer *//* Arrangementer *//* Arrangementer *//* Arrangementer *//* Arrangementer *//* Arrangementer */
 /*
 .section1-arrangementer{
