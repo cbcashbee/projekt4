@@ -128,13 +128,17 @@ nav {
     height: 60px;
 }
 
-#soeg, #notif, #profil{
+#profil {
+  margin: 0;
+}
+
+#soeg, #notif, #profil img {
     width: 30px;
     height: 30px;
     margin: 0px 10px;
 }
 
-#profil {
+#profil img {
     border-radius: 50%;
     border-style: none;
 }
@@ -224,7 +228,7 @@ nav {
 #vaeg div {
   background-color: #FFFFFF;
   margin: 10px 200px;
-  padding: 10px 30px;
+  padding: 30px;
 }
 
 #vaeg div div {
@@ -237,12 +241,24 @@ nav {
   display: flex;
   justify-content:flex-start;
   align-items: center;
-  background-color: aqua;
+}
+
+.afsender div, .afsender p, .afsender h2 {
+  flex-direction: column;
+  width: auto;
+  margin: 0 15px;
+  padding: 0;
+}
+
+.afsender p {
+  font-style: italic;
 }
 
 .vaeg-pb {
   width: 50px;
   height: 50px;
+  border-style: none;
+  border-radius: 50%;
 }
 
 .indhold {
@@ -250,12 +266,13 @@ nav {
   justify-content: space-between;
   width: auto;
   height: 300px;
-  overflow: hidden;
 }
 
 .indhold p {
-  margin: 0;
   flex-basis: 60%;
+  margin: 0;
+  height: 200px;
+  overflow: hidden;
 }
 
 .indhold img {
@@ -263,6 +280,87 @@ nav {
   height: 250px;
   margin: auto;
 }
+
+.some-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.some-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.like:hover {
+  content: url(../Images/Vaeggen/some-hea-fill.svg)
+}
+
+/*PROFIL*/
+#cashbee {
+  background: #FFFFFF;
+  margin: 0 100px;
+  border-radius: 7px;
+  border-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#cashbee div {
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  padding: 50px;
+}
+#cashbee div p {
+  width: inherit;
+  margin: 25px 0;
+  padding: 0;
+}
+
+#cashbee img {
+  margin: 40px;
+  width: 250px;
+  height: 250px;
+  border-style: none;
+  border-radius: 50%;
+}
+
+#space {
+  height: 200px;
+}
+
+/*LOGIN*/
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.login p, .login input {
+  margin: 0 0 30px 0;
+}
+
+/*Glemt password*/
+#glemt, .pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.pass {
+  display: none;
+  background: #fae76a;
+  font-size: 25px;
+}
+    
+#glemt:hover + .pass {
+  display: flex;
+}
+
 
 /* Arrangementer *//* Arrangementer *//* Arrangementer *//* Arrangementer *//* Arrangementer *//* Arrangementer */
 /*

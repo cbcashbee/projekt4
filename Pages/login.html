@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="da">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UCL Events | Profil</title>
+        <link rel="stylesheet" href="../Style Sheets/main.css">
+        <script src="../Scripts/script.js" defer></script>
+    </head>
+
+
+    <body>
+        <header>
+            <!--Logo-->
+            <a href="../index.html"><img id="logo" src="../Images/logo.png" alt="UCL Events logo"></a>
+            <!--Navigation-->
+            <nav>
+                <a href="../Pages/din-vaeg.html">Din væg</a>
+                <a href="../Pages/arrangementer.html">Arrangementer</a>
+                <a href="../Pages/campuskort.html">Campuskort</a>
+                <img id="soeg" src="../Images/Navigation/search-icon.svg" alt="Søgefelt">
+                <img id="notif" src="../Images/Navigation/notification-icon.svg" alt="Notifikationer">
+                <a id="profil" onclick="window.location.href='Pages/login.html'"><img src="../Images/Forside/profil.PNG" alt="Profil"></a>
+            </nav>
+        </header>
+
+        <form class="login" action="../Pages/din-vaeg.html">
+            <h2>Brugernavn</h2>
+                <input type="text" placeholder="Brugernavn fx 'navn'" name="navn" required>
+            <h2>Password</h2>
+                <input type="password" placeholder="Password fx '1234'" name="1234" required>
+            <button type="submit">Log ind</button>
+        </form>
+
+        <div id="glemt">
+            <p><u>Glemt password?</u></p>
+        </div>
+
+        <div class="pass">
+            <p>Brugernavn er <b>'navn'</b> og password er <b>'1234'</b> 8)</p>
+        </div>
+
+    </body>
+
+</html>

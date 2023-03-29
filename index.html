@@ -22,7 +22,7 @@
                 <a href="Pages/campuskort.html">Campuskort</a>
                 <img id="soeg" src="Images/Navigation/search-icon.svg" alt="Søgefelt">
                 <img id="notif" src="Images/Navigation/notification-icon.svg" alt="Notifikationer">
-                <img id="profil" src="Images/Forside/profil.PNG" alt="Profil">
+                <a id="profil" onclick="window.location.href='Pages/login.html'"><img src="Images/Forside/profil.PNG" alt="Profil"></a>
             </nav>
         </header>
 
@@ -63,14 +63,14 @@
             <div class="cta">
                 <h2>Går du på UCL?</h2>
                 <p>Er du ny studerende på UCL, eller søger du blot nye venskaber fra dit campus? Så <b>bliv en del af fællesskabet</b> allerede i dag! Log på med dit UCL-login, og tilmeld, opret og se de fede arrangementer og aktiviteter der foregår.</p>
-                <button>Log på nu!</button>
+                <button onclick="window.location.href='Pages/login.html'">Log på nu!</button>
             </div>
 
             <!--Gæst-->
             <div class="cta gaest">
                 <h2>Er du gæst?</h2>
                 <p>Går med overvejelser, om UCL er noget for dig, og <b>er det sociale vigtigt, for dit valg af uddannelses-sted?</b> Så klik ind her, og se de mange begivenheder, som du kan glæde dig til at blive en del af. Vi håber at se dig på UCL!</p>
-                <button class="gaest" onclick="window.location.href='Pages/arrangementer.html'">Se mere her!</button>
+                <button class="gaest" onclick="window.location.href='Pages/arrangementer-gaest.html'">Se mere her!</button>
             </div>
         </section>
     </body>
