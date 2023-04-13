@@ -14,3 +14,10 @@ function burgerMenu() {
   }
 
   */
+
+
+  function changeimage()
+{ 
+ var img = document.getElementById('hej');
+ img.src= '../Images/Arrangementer/rundbold.jpeg';
+}
