@@ -1,146 +1,113 @@
 <!DOCTYPE html>
 <html lang="da">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UCL Events</title>
-    <link rel="stylesheet" href="Style Sheets/main.css">
-    <script src="Scripts/script.js" defer></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UCL Events | Forside</title>
+        <link rel="stylesheet" href="Style Sheets/main.css">
+        <script src="Scripts/script.js" defer></script>
+    </head>
 
 
-<body>
+    <body>
+        <header>
+            <!--Logo-->
+            <a href="#"><img href="#" id="logo" src="Images/logo.png" alt="UCL Events"></a>
+            <!--Navigation-->
+            <nav>
+                <a href="Pages/din-vaeg.html">Din væg</a>
+                <a href="Pages/arrangementer.html">Arrangementer</a>
+                <a href="Pages/campuskort.html">Campuskort</a>
+                <img id="soeg" src="Images/Navigation/search-icon.svg" alt="Søgefelt">
+                <img id="notif" src="Images/Navigation/notification-icon.svg" alt="Notifikationer">
+                <a id="profil" onclick="window.location.href='Pages/login.html'"><img src="Images/Forside/profil.PNG" alt="Profil"></a>
+            </nav>
+        </header>
 
-    <header>
-        <img src="Images/Header/logo-hvid.png" id="logo" alt="UCL Events logo">
-
-        <nav>            
-            <img src="Images/Header/mag-glass-hvid.png" class="ikon" alt="Søgefelt">
-            <img src="Images/Header/profil-hvid.png" class="ikon" alt="Profil">
-            
-            <ul id="navLinks">
-                <li><a>Forside</a></li>
-                <li><a>Arrangementer</a></li>
-                <li><a>Samarbejde</a></li>
-                <li><a>Studieliv</a></li>
-                <li><a>Kontakt</a></li>
-            </ul>
-
-            <a href="javascript:void(0);" onclick="burgerMenu()">
-                <img src="Images/Header/burger-hvid.png" class="ikon" alt="Burger-menu">
-            </a>
-        </nav>        
-    </header>
-
-
-    <section class="section-1">
-        <div class="sec-a">
-            <img class="introbillede-1" src="Images/UCLfælleskab.png" alt="">
-        <div>
-            <p class="introparagraf">Det sociale liv på UCL: <span>Kom og mød nye venner!</span></p>
-        </div>
-        <script>
-      // Array of text to rotate through for each paragraph
-  const texts = [
-    ['Kom og mød nye venner!', 'Bliv en del af fællesskabet', 'Tilmeld dig arrangementer', 'Find din passion'],
-    ['Tilmeld dig arrangemenger', 'Find din passion'],
-    ['Deltag i sociale arrangementer', 'Sæt dit præg på UCL']
-  ];
-
-  let index = 4;
-  const socialLifes = document.querySelectorAll('.introparagraf');
-
-  setInterval(() => {
-    // Loop through all the paragraphs and update their text content
-    socialLifes.forEach((socialLife, i) => {
-      const span = socialLife.querySelector('span');
-      span.textContent = texts[i][index % texts[i].length];
-    });
-    // Increment the index
-    index++;
-  }, 3000);
-          </script>
-    </section>
-
-        <section class="section-2">
-            <h1 class="kb">Dine Kommende begivenheder!</h1>
-
-        <div class="sec-b">
-        <div class="tekst-1">
-        <h1 class="h1aarsfest">Årsfest</h1>
-         <p class="paragraf-1">Nu er der under en måned til, at den eftertragtede og længe ventede UCL årsfest finder sted. Festen er for alle nuværende studerende inden for UCL,  og hver studerende vil have mulighed for at invitere en gæst, som ikke går men forhåbentligt snart begynder på skolen :P
-            
-            Festens tema vil være rave, hvilket betyder at du skal skrue max op for farverne og være i dit toppeste humør, fordi det bliver et brav af en fest.</p>
-        </div>
-         <div>
-           <img class="billede-1" src="Images/fest.png">
-        </div>
-        </div>
+        <!--Banner-->
+        <section class="section-1">
+            <img id="logo-ban" src="Images/logo.png" alt=" UCL Events logo">
+            <div class="sec-a">
+                <img class="introbillede-1" src="Images/Forside/UCLfælleskab.png" alt="">
+            <div>
+                <p class="introparagraf">Det sociale liv på UCL: <span>Kom og mød nye venner!</span></p>
+            </div>
+            <script>
+          // Array of text to rotate through for each paragraph
+      const texts = [
+        ['Kom og mød nye venner!', 'Bliv en del af fællesskabet', 'Tilmeld dig arrangementer', 'Find din passion'],
+        ['Tilmeld dig arrangemenger', 'Find din passion'],
+        ['Deltag i sociale arrangementer', 'Sæt dit præg på UCL']
+      ];
     
-
-        <div class="sec-c">
-        <div a href="">
-        <img class="billede-2" src="Images/fredagsbar.webp"></div>
-        <div class="tekst-2">
-            <h1 class="h1olstafet">Ølstafet</h1>
-            <p class="paragraf-2">Se, om du og dine medstuderende, kan tæve de andre uddannelser, når den årlige ølstafet afholdes i starten af juni. Om du er konkurrenceminded eller om du blot vil have en hyggelig dag med vennerne fra studiet, så er ølstafet stedet!
-
-                Kom og vær med til en hyggelig dag i mosen , hvor der vil blive linet op til ølstafeten med soundbox, snacks og materiale til at lave bannere osv. Vi vil desuden sørge for ølkasser til alle tilmeldte hold, og så vil der være mulighed for at købe billige øl og andet godt (inkl. alkoholfri drikkevare). 
-                
-                Sidst på dagen, vil der til de heldige vinderhold, blive udlovet våde præmier til hele holdet, og til førstepladsen vil der oven i være en hemmelig præmie, som I kan bruge med klassen. 
-                
-                Så snup dine klassekammerater under armen, og tilmeld jeg med det samme!
-                
-                Vi glæder os til at se jer :)
-                </p>
-        </div>
-        </div>
-
-
-            <div class="sec-d">
-            <div class="tekst-1">
-            <h1 class="h1badminton">Badminton</h1>
-             <p class="paragraf-1">Kan du heller ikke få nok af fjerbold og ketcher, så skal du helt klart tilmelde dig til badminton. Du kan nemt få flere timer til at gå med at spille badminton. Tilmeld dig med venner eller alene, det helt op til dig. Og det koster dig ikke en krone at være med. Hvad venter du på? Tilmeld dig og hav det sjovt.  </p>
-            </div>
-             <div>
-               <img class="billede-1" src="Images/badminton.jpeg">
-            </div>
-            </div>
+      let index = 4;
+      const socialLifes = document.querySelectorAll('.introparagraf');
+    
+      setInterval(() => {
+        // Loop through all the paragraphs and update their text content
+        socialLifes.forEach((socialLife, i) => {
+          const span = socialLife.querySelector('span');
+          span.textContent = texts[i][index % texts[i].length];
+        });
+        // Increment the index
+        index++;
+      }, 3000);
+              </script>
+        </section>
         
-    </section>
+        <!--Velkomst-->
+        <section id="velkomst">
+            <!--Studerende-->
+            <div class="cta">
+                <h2>Går du på UCL?</h2>
+                <p>Er du ny studerende på UCL, eller søger du blot nye venskaber fra dit campus? Så <b>bliv en del af fællesskabet</b> allerede i dag! Log på med dit UCL-login, og tilmeld, opret og se de fede arrangementer og aktiviteter der foregår.</p>
+                <button onclick="window.location.href='Pages/login.html'">Log på nu!</button>
+            </div>
 
-
-    <footer>
-        <div id="links">
-            <h3>Brugbare links</h3>
-            <ul>
-                <li><a>Arrangementer</a></li>
-                <li><a>Samarbejde</a></li>
-                <li><a>Kontakt</a></li>
-            </ul>
-            
-        </div>
-          
-        <div id="nyhed">
-             <h3>Nyhedsbrev</h3>
-             <!--Skrivefelt her-->
-             <button>Abonnér nu</button>
-        </div>
-       
-
-        <div id="kontakt">
-            <h3>Kontakt</h3>
-            <ul>
-                <li>Telefon: +45 63 18 30 00</li>
-                <li>E-mail: ucl@ucl.dk</li>
-                <li>CVR-nummer: 30859480</li>
-                <li>EAN-nummer: 5798000559684</li>
-            </ul>
-        </div>
-    </footer>
-    
-</body>
+            <!--Gæst-->
+            <div class="cta gaest">
+                <h2>Er du gæst?</h2>
+                <p>Går med overvejelser, om UCL er noget for dig, og <b>er det sociale vigtigt, for dit valg af uddannelses-sted?</b> Så klik ind her, og se de mange begivenheder, som du kan glæde dig til at blive en del af. Vi håber at se dig på UCL!</p>
+                <button class="gaest" onclick="window.location.href='Pages/arrangementer-gaest.html'">Se mere her!</button>
+            </div>
+        </section>
+    </body>
 
 </html>
+
+
+<!--
+<footer>
+    Disse tre paragraphs, skal muligvis ændres til header nr. et eller andet, men for nu er de bare normal tekst
+    <div id="links">
+        <p>Brugbare links</p>
+        <ul>
+            <li><a>Arrangementer</a></li>
+            <li><a>Samarbejde</a></li>
+            <li><a>Kontakt</a></li>
+        </ul>
+        
+    </div>
+      
+    <div id="nyhed">
+         <p>Nyhedsbrev</p>
+Søgefelt her
+         <button>Abonnerer nu</button>
+    </div>
+   
+
+    <div id="kontakt">
+        <p>Kontakt</p>
+        <ul>
+            <li>Telefon: +45 63 18 30 00</li>
+            <li>E-mail: ucl@ucl.dk</li>
+            <li>CVR-nummer: 30859480</li>
+            <li>EAN-nummer: 5798000559684</li>
+        </ul>
+    </div>
+    
+</footer>
+
+-->

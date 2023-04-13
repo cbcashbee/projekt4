@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="93" viewBox="0 0 93 93">
+  <g id="Pil_-_Stiplet_og_rund" data-name="Pil - Stiplet og rund" transform="translate(1695 1509) rotate(180)">
+    <circle id="Ellipse_19" data-name="Ellipse 19" cx="46.5" cy="46.5" r="46.5" transform="translate(1602 1416)" fill="#e4f1f0"/>
+    <g id="Pil_stiplet" data-name="Pil stiplet" transform="translate(0.5 93)">
+      <line id="Line_446" data-name="Line 446" x2="51" y2="1" transform="translate(1622.5 1368.5)" fill="none" stroke="#00454e" stroke-linecap="round" stroke-width="5" stroke-dasharray="0.5 8"/>
+      <line id="Line_447" data-name="Line 447" y1="9" x2="8" transform="translate(1661.5 1372.5)" fill="none" stroke="#00454e" stroke-linecap="round" stroke-width="5" stroke-dasharray="0.5 8"/>
+      <line id="Line_448" data-name="Line 448" x2="8" y2="8" transform="translate(1661.5 1357.5)" fill="none" stroke="#00454e" stroke-linecap="round" stroke-width="5" stroke-dasharray="0.5 8"/>
+    </g>
+  </g>
+</svg>
