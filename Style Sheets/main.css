@@ -1034,3 +1034,110 @@ nav {
   
   }
   
+
+/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER/*PROFILER*/
+
+
+
+.container-profil{
+  background-color: #fff;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-top: 20px;
+  margin-bottom: 100px;
+  height: 450px;
+  
+  
+  
+  }
+  .indhold-biblografi{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  border-bottom: 1px solid #00454E;
+  padding-bottom: 15px;
+  
+  }
+  
+  .indhold-biblografi h1{
+  font-size: 70px;
+  
+  
+  }
+  
+  .paragraf-profil {
+  margin-top: 0px;
+  font-size: 25px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  width: 100%
+  
+    
+    
+    }
+  
+  .indhold-biblografi img{
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+  
+  
+  }
+  
+  
+  
+  .section2-andreas{
+  background-color: #fff;
+  height: 1500px;
+  
+  
+  }
+  
+  .rrangementer-andreastitel{
+  padding-top: 50px;
+  
+  }
+  
+  .container-tilmeldt {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+      }
+      
+      .item-tilmeldt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  background-color: #E4F1F0;
+  background: url(../images/baggrunducl.png) no-repeat center center fixed;
+ 
+      }
+      
+      .image {
+  grid-row: 1 / 3;
+  justify-self:center;
+  margin-top: 25px;
+      
+      }
+      
+      .image img{
+  height: 300px;
+  width: 300px;
+  border: 5px #00454E solid
+      }
+      
+      .content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+      
+      }
+      .content p{
+      /*color: black;*/
+  width: 80%;
+      
+      
+      }
