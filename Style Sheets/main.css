@@ -31,12 +31,17 @@ body {
     padding: 0;
 }
 
+nav{
+
+  
+}
 nav a {
     text-decoration: none;
     font-family: ProximaNovaA-Bold;
     font-size: 25px;
     margin: 0px 40px;  
     color: white;
+
 }
 
 nav a:hover{
