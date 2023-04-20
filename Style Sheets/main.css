@@ -1134,6 +1134,9 @@ nav {
   height: 300px;
   width: 300px;
   border-radius: 200px;
+  object-fit: contain;
+  object-position: top center;
+  background-color: white;
  
 
   
