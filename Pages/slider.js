@@ -5,9 +5,9 @@ const photos = [
   
     "../Images/Arrangementer/vandkamp.png", //2
   
-    "../Images/Arrangementer/stranden.png", //3
+    "../Images/Arrangementer/Stranden.png", //3
   
-    "../Images/Arrangementer/pubcrawl.png" //3
+    "../Images/Arrangementer/Pubcrawl.png" //3
   ];
   
   let slide = document.getElementById("slide");
