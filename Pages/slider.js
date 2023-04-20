@@ -7,7 +7,7 @@ const photos = [
   
     "../Images/Arrangementer/Stranden.png", //3
   
-    "../Images/Arrangementer/Pubcrawl.png" //3
+    "../Images/Arrangementer/pubcrawl.png" //3
   ];
   
   let slide = document.getElementById("slide");

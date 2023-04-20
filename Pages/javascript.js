@@ -11,17 +11,17 @@ var news = [
   var button = document.querySelector(".newsletter-button");
   var isActive = false; // Variabel til at holde styr på om knappen er aktiveret eller ej
   
-  // Function to get next news item
+  // Funnktion der henter den næste nyhed
   function getNextNews() {
     var newsItem = news[currentNewsIndex];
     currentNewsIndex = (currentNewsIndex + 1) % news.length;
     return newsItem;
   }
   
-  // Add click event listener to the button
+  // Add click event listener til knappen
   button.addEventListener("click", toggleNewsletter);
   
-  // Function to toggle newsletter
+  // Funktion til toggle newsletter
   function toggleNewsletter() {
     isActive = !isActive; // Toggle boolean value
   
@@ -32,7 +32,7 @@ var news = [
     }
   }
   
-  // Function to generate news
+  // Function til at generere nyheder
   function generateNews() {
     var newsletter = document.querySelector(".newsletter");
     var newsContent = "";

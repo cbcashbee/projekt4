@@ -8,7 +8,7 @@ html {
 }
   
 body {
-    background: url(../images/baggrunducl.jpg) repeat center center fixed; 
+    background: url(../Images/baggrunducl.jpg) repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -558,7 +558,7 @@ nav {
     height: 1500px;
     background-color: white;
     margin-bottom: 100px;
-    background: url(../images/baggrunducl.png) no-repeat center center fixed; 
+    background: url(../Images/baggrunducl.png) no-repeat center center fixed; 
     
     
     }
@@ -646,7 +646,7 @@ nav {
     
     
     .section4-arrangementer{
-      background: url(../images/baggrunducl.png) no-repeat center center fixed; 
+      background: url(../Images/baggrunducl.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1209,7 +1209,7 @@ nav {
 
    /* Styles for the newsletter */
   #vaeg .newsletter{
-    background: url(../images/logo.png);
+    background: url(../Images/logo.png);
     background-size: 250px;
     background-position: center right 25px;
     background-repeat: no-repeat;
