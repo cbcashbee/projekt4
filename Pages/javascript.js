@@ -50,18 +50,17 @@ var news = [
   //Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis//
 
   //Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas//
-  Andreas Acker
 //array of photos
 const photos = [
-    "olstafet.png", //0
+    "../Images/Arrangementer/olstafet.png", //0
   
-    "campusfest.png", //1
+    "../Images/Arrangementer/campusfest.png", //1
   
-    "vandkamp.png", //2
+    "../Images/Arrangementer/vandkamp.png", //2
   
-    "stranden.png", //3
+    "../Images/Arrangementer/stranden.png", //3
   
-    "pubcrawl.png" //3
+    "../Images/Arrangementer/pubcrawl.png" //3
   ];
   
   let slide = document.getElementById("slide");

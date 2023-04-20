@@ -487,6 +487,16 @@ nav {
     
     
     }
+
+    .arrangementer-populært{
+      background-color: #FAE76A;
+      width: 350px;
+      height: 50px;
+      margin-left: 125px;
+      margin-top: -55px;
+      margin-bottom: 30px;
+      }
+   
     
     .section2-arrangementer{
     height: 650px;
@@ -502,14 +512,13 @@ nav {
     #slide {
       width: 701px;
       height: 500px;
+      
     }
     
     #next {
-        background-color: white;
         border: none;
     }
     #previous {
-        background-color: white;
         border: none;
     }
     
