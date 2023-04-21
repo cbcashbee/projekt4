@@ -4,7 +4,7 @@
 var news = [
     { title: "UCL søger nye personalemedlemmer til Årsfesten ", content: "Er godt humør, fælleskab og planlægning noget du brænder for? Så meld dig ind i Festudvalget. Klik her." },
     { title: "Fredagsbaren", content: "Tilbud på alt drikkelse til fredagsbaren ved fremvisning af brugeroprettelse." },
-    { title: "En god nyhed for dig som studerende", content: "Der er en masse fordele på vej til dig. Stuierabat, resscourser og meget mere. Klik her for at læse mere." },
+    { title: "En god nyhed for dig som studerende", content: "Der er en masse fordele på vej til dig. Stuierabat, resscourcer og meget mere. Klik her for at læse mere." },
   ];
   
   var currentNewsIndex = 0; // Variabel til at holde styr på den aktuelle nyhed
