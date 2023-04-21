@@ -526,9 +526,7 @@ nav {
         width: 70px;
     }
     
-    
-    
-    
+
     
     .arrow {
       font-size: 30px;
@@ -538,12 +536,12 @@ nav {
     
     .left::before {
       /*content: "\2190";*/
-      content: url(../Images/Arrangementer/arrow-l.svg);
+      content: url(../Images/Arrangementer/arrow-l-.svg);
     }
     
     .right::before {
       /*content: "\2192";*/
-      content: url(../Images/Arrangementer/arrow-r.svg);
+      content: url(../Images/Arrangementer/arrow-r-.svg);
     }
     
     /*
@@ -1229,6 +1227,7 @@ nav {
   }
   /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*/
 
+/*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS 
   article {
     display: flex;
     padding: 0 35px;
@@ -1294,3 +1293,5 @@ nav {
     margin-left: 3px;
     width: calc(100% /3);
 }
+
+/*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS /*ANNAS JAVASCRIPT CSS 

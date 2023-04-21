@@ -1,3 +1,5 @@
+/* ANNA JAVASCRIPT ANNA JAVASCRIPT 
+
 const slider = document.querySelector(".slider");
 const firstImg = slider.querySelectorAll("img")[0];
 const arrowIcons = document.querySelectorAll(".wrapper i");
@@ -100,3 +102,5 @@ slider.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 slider.addEventListener("touchend", dragStop);
+
+
