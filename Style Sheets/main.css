@@ -1199,13 +1199,7 @@ nav {
 
   }
 
-
-
-
-
-
-
-
+  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*
 
    /* Styles for the newsletter */
   #vaeg .newsletter{
@@ -1233,3 +1227,70 @@ nav {
     color: #fff;
     cursor: pointer;
   }
+  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*  /*EDIS JAVASCRIPT CSS/*/
+
+  article {
+    display: flex;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #00454E;
+}
+
+.wrapper {
+    max-width: 300px;
+    position: relative;
+}
+
+.wrapper i {
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper .slider {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.slider.dragging img {
+    pointer-events: none;
+}
+
+.slider.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+
+}
+
+.wrapper i:first-child {
+    left: -23px;
+    display: none;
+}
+
+.wrapper i:last-child {
+    right: -23px;
+}
+
+.slider img:first-child {
+    margin-left: 0px;
+}
+
+.slider img {
+    height: 100px;
+    object-fit: cover;
+    margin-left: 3px;
+    width: calc(100% /3);
+}

@@ -49,4 +49,3 @@ var news = [
   
   //Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis////Edis//
 
-  //Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas////Andreas//
